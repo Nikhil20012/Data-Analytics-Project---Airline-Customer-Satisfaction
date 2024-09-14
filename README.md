@@ -24,7 +24,7 @@ This repository contains the final project for analyzing airline customer satisf
 
 ## Installation
 
-To run the project code, ensure you have the required dependencies installed. You can set up the environment using `requirements.txt`.
+To run the project code, ensure you have the required dependencies installed.
 
 1. **Clone the Repository**
 
