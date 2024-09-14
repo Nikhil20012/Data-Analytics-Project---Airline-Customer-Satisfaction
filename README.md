@@ -10,13 +10,13 @@ This repository contains the final project for analyzing airline customer satisf
   - `Airline Customer Satisfaction final.docx`: This document contains the literature review relevant to the project.
 
 - **Code Files**
-  - `airlinesatisfaction.py`: This file includes the preprocessing and visualization code. Note that the SVM code is also included here due to long execution times, which are handled separately.
-  - `knn.py`: Contains the code for the K-Nearest Neighbors (KNN) classification model.
-  - `adaboosting.py`: Contains the code for the AdaBoosting classification model.
-  - `random_forest.py`: Contains the code for the Random Forest classification model.
-  - `naive_bayes.py`: Contains the code for the Naive Bayes classification model.
-  - `svm.py`: Contains the code for the Support Vector Machine (SVM) classification model.
-  - `logistic_regression.py`: Contains the code for the Logistic Regression classification model.
+  - `airlinesatisfaction.ipynb`: Jupyter Notebook that includes data preprocessing and visualization. The SVM code is integrated here due to long execution times.
+  - `knn.ipynb`: Jupyter Notebook containing the code for the K-Nearest Neighbors (KNN) classification model.
+  - `adaboosting.ipynb`: Jupyter Notebook containing the code for the AdaBoosting classification model.
+  - `random_forest.ipynb`: Jupyter Notebook containing the code for the Random Forest classification model.
+  - `naive_bayes.ipynb`: Jupyter Notebook containing the code for the Naive Bayes classification model.
+  - `svm.ipynb`: Jupyter Notebook containing the code for the Support Vector Machine (SVM) classification model.
+  - `logistic_regression.ipynb`: Jupyter Notebook containing the code for the Logistic Regression classification model.
 
 - **Final Report**
   - `04_Airline max satisfaction-FinalReport.pdf`: The final report document detailing the project findings and conclusions.
@@ -27,14 +27,14 @@ This repository contains the final project for analyzing airline customer satisf
 ## Usage
 
 1. **Explore the Code**
-   - Review `airlinesatisfaction.py` for data preprocessing and visualization steps.
-   - Use the model files to test and evaluate different classification approaches:
-     - **K-Nearest Neighbors**: `python knn.py`
-     - **AdaBoosting**: `python adaboosting.py`
-     - **Random Forest**: `python random_forest.py`
-     - **Naive Bayes**: `python naive_bayes.py`
-     - **Support Vector Machine**: `python svm.py`
-     - **Logistic Regression**: `python logistic_regression.py`
+   - Open `airlinesatisfaction.ipynb` for data preprocessing and visualization.
+   - Open and run the other Jupyter Notebooks for different classification approaches:
+     - **K-Nearest Neighbors**: `knn.ipynb`
+     - **AdaBoosting**: `adaboosting.ipynb`
+     - **Random Forest**: `random_forest.ipynb`
+     - **Naive Bayes**: `naive_bayes.ipynb`
+     - **Support Vector Machine**: `svm.ipynb`
+     - **Logistic Regression**: `logistic_regression.ipynb`
 
 2. **Read the Final Report**
    - Refer to `04_Airline max satisfaction-FinalReport.pdf` for a comprehensive summary of the project's results and conclusions.
